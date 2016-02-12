@@ -1,0 +1,17 @@
+cron_order.txt
+
+delete zip file every 3 months
+
+0 0 1 4,7,10,1 * rm /root/Proyecto/Logs/zip_logs/*
+
+move the sensor.log every week
+
+0 0 * * 1 python /root/Proyecto/Produccion/scripts/move_logs.py
+
+compress logs every 2 week of the 3rd moth 
+
+0 0 15 3,6,9,12 * python /root/Proyecto/Produccion/scripts/zip_logs.py
+
+execute repo verification every start 
+
+@start python /root/Proyecto/CRON/cron_arduino.py

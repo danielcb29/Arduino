@@ -1,0 +1,17 @@
+APIs de terceros 
+
+#InitialState
+
+API REST
+
+http://support.initialstate.com/knowledgebase/articles/590091-how-to-stream-events-via-restful-api
+http://docs.initialstateeventsapi.apiary.io/#reference/event-buckets
+
+API PYTHON
+
+http://support.initialstate.com/knowledgebase/articles/590085-how-to-stream-events-in-python
+https://github.com/InitialState/python_appender
+
+ARDUINO YUN PROJECT
+
+https://github.com/InitialState/arduinosensorbox/wiki
